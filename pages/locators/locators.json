@@ -1,0 +1,15 @@
+{
+  "pages": {
+    "mainPage": {
+      "industriesMenuButn": "a:has-text('Industries')",
+      "industryMenu": {
+        "ddl": ".dropdown-menu",
+        "allItemsItem": "a[href='/industries']:has-text('See All')",
+        "ddlMenuItems": "a[href *='.com/industries'] + .dropdown-menu > .menu-item"
+      }
+    },
+    "industriesPage": {
+      "industryMenuTiles": ".icons-grid-icon-holder"
+    }
+  }
+}
